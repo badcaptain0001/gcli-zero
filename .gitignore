@@ -21,3 +21,4 @@ wheels/
 venv/
 ENV/
 .venv
+.DEV_SUBMISSION_TEMPLATE.md
