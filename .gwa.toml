@@ -1,0 +1,18 @@
+# Git Workflow Automator Configuration
+
+[branch]
+prefix_required = true
+allowed_prefixes = ["feature", "bugfix", "hotfix", "release"]
+main_branch = "main"
+protected_branches = ["main", "master", "develop"]
+
+[commit]
+conventional_commits = true
+allowed_types = ["feat", "fix", "docs", "style", "refactor", "test", "chore", "ci"]
+require_scope = false
+max_subject_length = 72
+
+[pr]
+require_description = true
+auto_assign = false
+draft_by_default = false
